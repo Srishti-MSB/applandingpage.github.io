@@ -1,0 +1,152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #fff !important;
+}
+
+.logo img {
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 80px;
+    height: 76px;
+    border-radius: 90%;
+    border: lightblue;
+
+}
+
+.t1 {
+    display: inline;
+    font-family: ;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 10px;
+    position: absolute;
+}
+.description{
+    text-align: center;
+    width: 50%;
+    margin-left: 38%;
+    position: none;
+
+}
+.navbar {
+    /* position: absolute; */
+    margin-top: 1%;
+    background-color: CADETBLUE;
+    height: 44px;
+    /* width: 100%; */
+}
+
+.navbar ul {
+    overflow: auto;
+    /* display: flex;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px; */
+
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+
+.navbar li a {
+    text-decoration: none;    
+    font-size: 15px;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5px 5px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar li a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    transition: 0.3s ease;
+}
+.search{
+    display: flex;
+    float: right;
+    color: white;
+    padding: 8px 70px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 135px;
+}
+.content img {
+    width: 20%;
+    padding: 1%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+.content1 {
+    width: 20%;
+    padding: 1%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+.image{
+    margin-right: 25%;
+    float: right;
+    margin-top: 0px;
+    width: 180px;
+    border-color: aqua;
+    height: 364px;
+    border-radius: 10px;
+    display: flex;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.features h1{
+    margin-left: 360px;
+    margin-top: 50px;
+    font-size: 4em;
+    display: flex;
+    
+}
+.features li{
+    margin-left: 390px;
+    font-size:1.2em ;
+}
+.mobileapp{
+    display: block; 
+    font-size: 2em;   
+}
+
+.download {
+    margin-left: 49%;
+}
+.btn{
+    background-color:green;
+    color: white;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 2px;
+}
+.btn:hover{
+    background-color:#689f38;
+    color:white;
+
+}
